@@ -1,0 +1,60 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+#back{
+  width:100vw;
+  height:100vh;
+  background: #dfdfdf;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+#tile{
+  width:300px;
+  background: white;
+  border-radius:15px;
+  overflow:hidden;
+}
+
+#BAG{
+  width:300px;
+}
+#INFO{
+  padding:10px;
+  margin-top:10px;
+}
+.shadow{
+  opacity:.2;
+}
+.subhead{
+  font-weight:bold;
+  font-size:30px;
+}
+#EXPLAIN{
+  width:80%;
+  display:inline-block;
+}
+#Location{
+  padding:25px;
+  display:flex;
+  align-items:center;
+}
+#Price{
+  padding:25px;
+  display:flex;
+  align-items:center;
+}
+li{
+  display:inline-block;
+  padding:10px;
+  background:rgb(242,230,227);
+  margin-right:5px;
+  border-radius:5px;
+  font-weight:bold;
+  color:#FFFFFF;
+}
+footer{
+  padding:10px;
+  background:#efefef;
+}
